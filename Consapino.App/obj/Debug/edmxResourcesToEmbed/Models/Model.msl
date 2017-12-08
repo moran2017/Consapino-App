@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_57674_cosapinoappModelStoreContainer" CdmEntityContainer="CosapinoAppEntities">
+    <EntitySetMapping Name="Administrador">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Administrador">
+        <MappingFragment StoreEntitySet="Administrador">
+          <ScalarProperty Name="AdministradorId" ColumnName="AdministradorId" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Area">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="UnidadNegocioId" ColumnName="UnidadNegocioId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categoria">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Categoria">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="TipoCategoriaId" ColumnName="TipoCategoriaId" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Certificacion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Certificacion">
+        <MappingFragment StoreEntitySet="Certificacion">
+          <ScalarProperty Name="CertificacionId" ColumnName="CertificacionId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaCertificacion" ColumnName="FechaCertificacion" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="FechaActual" ColumnName="FechaActual" />
+          <ScalarProperty Name="DiasVencimiento" ColumnName="DiasVencimiento" />
+          <ScalarProperty Name="EstadoCertificacion" ColumnName="EstadoCertificacion" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="NombreArchivo" ColumnName="NombreArchivo" />
+          <ScalarProperty Name="RutaArchivo" ColumnName="RutaArchivo" />
+          <ScalarProperty Name="InstitucionId" ColumnName="InstitucionId" />
+          <ScalarProperty Name="OtraInstitucion" ColumnName="OtraInstitucion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Colegiatura">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Colegiatura">
+        <MappingFragment StoreEntitySet="Colegiatura">
+          <ScalarProperty Name="ColegiaturaId" ColumnName="ColegiaturaId" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Curso">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Curso">
+        <MappingFragment StoreEntitySet="Curso">
+          <ScalarProperty Name="CursoId" ColumnName="CursoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="SubCategoriaId" ColumnName="SubCategoriaId" />
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departamento">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Departamento">
+        <MappingFragment StoreEntitySet="Departamento">
+          <ScalarProperty Name="DepartamentoId" ColumnName="DepartamentoId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Diplomado">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Diplomado">
+        <MappingFragment StoreEntitySet="Diplomado">
+          <ScalarProperty Name="DiplomadoId" ColumnName="DiplomadoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="SubCategoriaId" ColumnName="SubCategoriaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Distribucion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Distribucion">
+        <MappingFragment StoreEntitySet="Distribucion">
+          <ScalarProperty Name="DistribucionId" ColumnName="DistribucionId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Distrito">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Distrito">
+        <MappingFragment StoreEntitySet="Distrito">
+          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="UbigeoId" ColumnName="UbigeoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Documento">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Documento">
+        <MappingFragment StoreEntitySet="Documento">
+          <ScalarProperty Name="DocumentoId" ColumnName="DocumentoId" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Ruta" ColumnName="Ruta" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empresa">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Empresa">
+        <MappingFragment StoreEntitySet="Empresa">
+          <ScalarProperty Name="EmpresaId" ColumnName="EmpresaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Especialidad">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Especialidad">
+        <MappingFragment StoreEntitySet="Especialidad">
+          <ScalarProperty Name="EspecialidadId" ColumnName="EspecialidadId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estudios">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Estudios">
+        <MappingFragment StoreEntitySet="Estudios">
+          <ScalarProperty Name="EstudiosId" ColumnName="EstudiosId" />
+          <ScalarProperty Name="ProfesionId" ColumnName="ProfesionId" />
+          <ScalarProperty Name="OtraProfesion" ColumnName="OtraProfesion" />
+          <ScalarProperty Name="InstitucionId" ColumnName="InstitucionId" />
+          <ScalarProperty Name="OtraInstitucion" ColumnName="OtraInstitucion" />
+          <ScalarProperty Name="ColegiaturaId" ColumnName="ColegiaturaId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="NombreArchivo" ColumnName="NombreArchivo" />
+          <ScalarProperty Name="RutaArchivo" ColumnName="RutaArchivo" />
+          <ScalarProperty Name="GradoId" ColumnName="GradoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Experiencia">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Experiencia">
+        <MappingFragment StoreEntitySet="Experiencia">
+          <ScalarProperty Name="ExperienciaId" ColumnName="ExperienciaId" />
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+          <ScalarProperty Name="FechaSalida" ColumnName="FechaSalida" />
+          <ScalarProperty Name="EsActual" ColumnName="EsActual" />
+          <ScalarProperty Name="SubSectorId" ColumnName="SubSectorId" />
+          <ScalarProperty Name="UnidaNegocioId" ColumnName="UnidaNegocioId" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="EmpresaId" ColumnName="EmpresaId" />
+          <ScalarProperty Name="OtraEmpresa" ColumnName="OtraEmpresa" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="Funcion" ColumnName="Funcion" />
+          <ScalarProperty Name="SectorId" ColumnName="SectorId" />
+          <ScalarProperty Name="ProyectoId" ColumnName="ProyectoId" />
+          <ScalarProperty Name="NombreProyecto" ColumnName="NombreProyecto" />
+          <ScalarProperty Name="TipoProyectoId" ColumnName="TipoProyectoId" />
+          <ScalarProperty Name="DistribucionId" ColumnName="DistribucionId" />
+          <ScalarProperty Name="PosicionId" ColumnName="PosicionId" />
+          <ScalarProperty Name="MontoProyecto" ColumnName="MontoProyecto" />
+          <ScalarProperty Name="TipoMonedaId" ColumnName="TipoMonedaId" />
+          <ScalarProperty Name="PersonasCargoId" ColumnName="PersonasCargoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grado">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Grado">
+        <MappingFragment StoreEntitySet="Grado">
+          <ScalarProperty Name="GradoId" ColumnName="GradoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="TipoGradoId" ColumnName="TipoGradoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Idioma">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Idioma">
+        <MappingFragment StoreEntitySet="Idioma">
+          <ScalarProperty Name="IdiomaId" ColumnName="IdiomaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IdiomaTrabajador">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.IdiomaTrabajador">
+        <MappingFragment StoreEntitySet="IdiomaTrabajador">
+          <ScalarProperty Name="IdiomaTrabajadorId" ColumnName="IdiomaTrabajadorId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="NivelIdiomaId" ColumnName="NivelIdiomaId" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="IdiomaId" ColumnName="IdiomaId" />
+          <ScalarProperty Name="NombreArchivo" ColumnName="NombreArchivo" />
+          <ScalarProperty Name="RutaArchivo" ColumnName="RutaArchivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Institucion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Institucion">
+        <MappingFragment StoreEntitySet="Institucion">
+          <ScalarProperty Name="InstitucionId" ColumnName="InstitucionId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NivelIdioma">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.NivelIdioma">
+        <MappingFragment StoreEntitySet="NivelIdioma">
+          <ScalarProperty Name="NivelIdiomaId" ColumnName="NivelIdiomaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificacion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Notificacion">
+        <MappingFragment StoreEntitySet="Notificacion">
+          <ScalarProperty Name="NotificacionId" ColumnName="NotificacionId" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="EsCorreo" ColumnName="EsCorreo" />
+          <ScalarProperty Name="EsNotificacion" ColumnName="EsNotificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perfil">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Perfil">
+        <MappingFragment StoreEntitySet="Perfil">
+          <ScalarProperty Name="PerfilId" ColumnName="PerfilId" />
+          <ScalarProperty Name="EspecialidadId" ColumnName="EspecialidadId" />
+          <ScalarProperty Name="Requisitos" ColumnName="Requisitos" />
+          <ScalarProperty Name="NivelAcademico" ColumnName="NivelAcademico" />
+          <ScalarProperty Name="PostulaEn" ColumnName="PostulaEn" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="UsuarioRegistroId" ColumnName="UsuarioRegistroId" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonasCargo">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.PersonasCargo">
+        <MappingFragment StoreEntitySet="PersonasCargo">
+          <ScalarProperty Name="PersonasCargoId" ColumnName="PersonasCargoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posicion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Posicion">
+        <MappingFragment StoreEntitySet="Posicion">
+          <ScalarProperty Name="PosicionId" ColumnName="PosicionId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostGrado">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.PostGrado">
+        <MappingFragment StoreEntitySet="PostGrado">
+          <ScalarProperty Name="PostgradoId" ColumnName="PostgradoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="InstitucionId" ColumnName="InstitucionId" />
+          <ScalarProperty Name="OtraInstitucion" ColumnName="OtraInstitucion" />
+          <ScalarProperty Name="ProfesionId" ColumnName="ProfesionId" />
+          <ScalarProperty Name="OtraProfesion" ColumnName="OtraProfesion" />
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="NombreArchivo" ColumnName="NombreArchivo" />
+          <ScalarProperty Name="RutaArchivo" ColumnName="RutaArchivo" />
+          <ScalarProperty Name="SubCategoriaId" ColumnName="SubCategoriaId" />
+          <ScalarProperty Name="CursoId" ColumnName="CursoId" />
+          <ScalarProperty Name="DiplomadoId" ColumnName="DiplomadoId" />
+          <ScalarProperty Name="GradoId" ColumnName="GradoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Postulacion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Postulacion">
+        <MappingFragment StoreEntitySet="Postulacion">
+          <ScalarProperty Name="PostulacionId" ColumnName="PostulacionId" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="PerfilId" ColumnName="PerfilId" />
+          <ScalarProperty Name="UsuarioId" ColumnName="UsuarioId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profesion">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Profesion">
+        <MappingFragment StoreEntitySet="Profesion">
+          <ScalarProperty Name="ProfesionId" ColumnName="ProfesionId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="InstitucionId" ColumnName="InstitucionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provincia">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Provincia">
+        <MappingFragment StoreEntitySet="Provincia">
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DepartamentoId" ColumnName="DepartamentoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proyecto">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Proyecto">
+        <MappingFragment StoreEntitySet="Proyecto">
+          <ScalarProperty Name="ProyectoId" ColumnName="ProyectoId" />
+          <ScalarProperty Name="TipoProyectoId" ColumnName="TipoProyectoId" />
+          <ScalarProperty Name="CR" ColumnName="CR" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProyectoSector">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.ProyectoSector">
+        <MappingFragment StoreEntitySet="ProyectoSector">
+          <ScalarProperty Name="ProyectoSubSectorId" ColumnName="ProyectoSubSectorId" />
+          <ScalarProperty Name="ProyectoId" ColumnName="ProyectoId" />
+          <ScalarProperty Name="SubSectorId" ColumnName="SubSectorId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sector">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Sector">
+        <MappingFragment StoreEntitySet="Sector">
+          <ScalarProperty Name="SectorId" ColumnName="SectorId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubCategoria">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.SubCategoria">
+        <MappingFragment StoreEntitySet="SubCategoria">
+          <ScalarProperty Name="SubCategoriaId" ColumnName="SubCategoriaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubSector">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.SubSector">
+        <MappingFragment StoreEntitySet="SubSector">
+          <ScalarProperty Name="SubSectorId" ColumnName="SubSectorId" />
+          <ScalarProperty Name="SectorId" ColumnName="SectorId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoCategoria">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.TipoCategoria">
+        <MappingFragment StoreEntitySet="TipoCategoria">
+          <ScalarProperty Name="TipoCategoriaId" ColumnName="TipoCategoriaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Acronimo" ColumnName="Acronimo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoDocumento">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.TipoDocumento">
+        <MappingFragment StoreEntitySet="TipoDocumento">
+          <ScalarProperty Name="TipoDocumentoId" ColumnName="TipoDocumentoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoGrado">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.TipoGrado">
+        <MappingFragment StoreEntitySet="TipoGrado">
+          <ScalarProperty Name="TipoGradoId" ColumnName="TipoGradoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoMoneda">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.TipoMoneda">
+        <MappingFragment StoreEntitySet="TipoMoneda">
+          <ScalarProperty Name="TipoMonedaId" ColumnName="TipoMonedaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoProyecto">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.TipoProyecto">
+        <MappingFragment StoreEntitySet="TipoProyecto">
+          <ScalarProperty Name="TipoProyectoId" ColumnName="TipoProyectoId" />
+          <ScalarProperty Name="SubSectorId" ColumnName="SubSectorId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trabajador">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Trabajador">
+        <MappingFragment StoreEntitySet="Trabajador">
+          <ScalarProperty Name="TrabajadorId" ColumnName="TrabajadorId" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="NroDocumento" ColumnName="NroDocumento" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Referencia" ColumnName="Referencia" />
+          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="TipoDocumentoId" ColumnName="TipoDocumentoId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FolderGuid" ColumnName="FolderGuid" />
+          <ScalarProperty Name="codigo_empleado" ColumnName="codigo_empleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnidadNegocio">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.UnidadNegocio">
+        <MappingFragment StoreEntitySet="UnidadNegocio">
+          <ScalarProperty Name="UnidadNegocioId" ColumnName="UnidadNegocioId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DistribucionId" ColumnName="DistribucionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="DB_57674_cosapinoappModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="UsuarioId" ColumnName="UsuarioId" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="NumeroContacto1" ColumnName="NumeroContacto1" />
+          <ScalarProperty Name="NumeroContacto2" ColumnName="NumeroContacto2" />
+          <ScalarProperty Name="EsTrabajador" ColumnName="EsTrabajador" />
+          <ScalarProperty Name="TieneEstudios" ColumnName="TieneEstudios" />
+          <ScalarProperty Name="EspecialidadId" ColumnName="EspecialidadId" />
+          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DeviceToken" ColumnName="DeviceToken" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

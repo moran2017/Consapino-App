@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="856c9e66f2fb4e4894ae623186a9c305" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Administrador" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Area" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Categoria" Width="1.5" PointX="15" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Certificacion" Width="1.5" PointX="12" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Cliente" Width="1.5" PointX="5.25" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Colegiatura" Width="1.5" PointX="7.5" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Curso" Width="1.5" PointX="15" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Departamento" Width="1.5" PointX="1.5" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Diplomado" Width="1.5" PointX="15" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Distribucion" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Distrito" Width="1.5" PointX="3" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Documento" Width="1.5" PointX="7.5" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Empresa" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Especialidad" Width="1.5" PointX="17.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Estudios" Width="1.5" PointX="14.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Experiencia" Width="1.5" PointX="7.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Grado" Width="1.5" PointX="12" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Idioma" Width="1.5" PointX="8.25" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.IdiomaTrabajador" Width="1.5" PointX="10.5" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Institucion" Width="1.5" PointX="9.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.NivelIdioma" Width="1.5" PointX="8.25" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Notificacion" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Perfil" Width="1.5" PointX="19.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.PersonasCargo" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Posicion" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.PostGrado" Width="1.5" PointX="17.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Postulacion" Width="1.5" PointX="21.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Profesion" Width="1.5" PointX="12" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Provincia" Width="1.5" PointX="0.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Proyecto" Width="1.5" PointX="7.5" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.ProyectoSector" Width="1.5" PointX="5.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Sector" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.SubCategoria" Width="1.5" PointX="12.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.SubSector" Width="1.5" PointX="3" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.TipoCategoria" Width="1.5" PointX="12.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.TipoDocumento" Width="1.5" PointX="3" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.TipoGrado" Width="1.5" PointX="9.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.TipoMoneda" Width="1.5" PointX="5.25" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.TipoProyecto" Width="1.5" PointX="5.25" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Trabajador" Width="1.5" PointX="5.25" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.UnidadNegocio" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_57674_cosapinoappModel.Usuario" Width="1.5" PointX="19.5" PointY="19.5" IsExpanded="true" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Area_UnidadNegocio" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Posicion_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Categoria_TipoCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Curso_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Especialidad_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_SubCategoria_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Certificacion_Institucion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Certificacion_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Proyecto_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Colegiatura_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Curso_SubCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Curso" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Provincia_Departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Diplomado_SubCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Diplomado" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Distribucion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_UnidadNegocio_Distribucion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Distrito_Provincia" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Trabajador_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Usuario_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Documento_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Perfil_Especialidad" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Usuario_Especialidad" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Estudios_Grado" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Estudios_Institucion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Estudios_Profesion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Estudios_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_PersonasCargo" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Posicion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Proyecto1" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Sector" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_TipoMoneda" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_TipoProyecto" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Experiencia_UnidadNegocio" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Grado_TipoGrado" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Grado" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_IdiomaTrabajador_Idioma" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_IdiomaTrabajador_NivelIdioma" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_IdiomaTrabajador_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Institucion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Profesion_Institucion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Postulacion_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Profesion" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_SubCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_PostGrado_Trabajador" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Postulacion_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Proyecto_TipoProyecto" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_ProyectoSector_Proyecto" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_ProyectoSector_SubSector" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_SubSector_Sector" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_TipoProyecto_SubSector" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_57674_cosapinoappModel.FK_Trabajador_TipoDocumento" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
